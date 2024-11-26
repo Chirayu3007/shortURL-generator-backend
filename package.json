@@ -1,0 +1,16 @@
+{
+  "name": "shorturl-generator-backend",
+  "version": "1.0.0",
+  "description": "Short URL Generator - MERN Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env.prod app.js",
+    "dev": "nodemon --env-file=.env.dev app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
