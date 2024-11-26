@@ -11,15 +11,16 @@ console.log('hostname', hostname, port)
 //midddleware
 
 
+// Connecting with database
 
-// routes
-//GET // Root
+
+// Routes
 app.get('/', (req, res) => {
     res.send('Hello World!')
   })
 
-// server start process
-
+  
+// Server start process
 app.listen(port, () => {
     console.log(`Server running at http://${hostname}:${port}`)
   })
