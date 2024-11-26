@@ -11,7 +11,7 @@ console.log('hostname --->',hostname,', port --->', port)
 connectDatabase()
 
 
-//Midddleware
+//Middleware
 
 
 
